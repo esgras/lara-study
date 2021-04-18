@@ -9,4 +9,9 @@ class Calculator
     {
         return $x + $y;
     }
+
+    public function remove(int $x, int $y): int
+    {
+        return $x + $y;
+    }
 }
