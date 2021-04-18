@@ -1,0 +1,9 @@
+language: php
+php:
+  - 7.4
+
+install:
+  - COMPOSER_MEMORY_LIMIT=-1 composer install --optimize-autoloader --no-interaction --no-progress
+
+script:
+  - make phpunit-test
